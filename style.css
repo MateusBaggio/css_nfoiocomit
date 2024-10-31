@@ -1,0 +1,267 @@
+//Aboutus.css
+
+@media (max-width: 1059px){
+    .apresentacao {
+        display: none;
+    }
+
+    .characters {
+        height: 40vh;
+        width: 18vw;
+        gap: 20px;
+    }
+
+    .time{
+        display: flex;
+        justify-content: space-between;
+        margin: 50px 20px;
+    }
+
+    #body-about {
+        height: 80vh;
+        width: 100%;
+    }
+    
+  }
+
+@media(max-width: 757px){
+    .time{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    }
+
+    #body-about {
+        height: 100vh;
+    }
+
+    .characters {
+        height: 35vh;
+        width: 35vw;
+        gap: 15px;
+    }
+
+    .charactername {
+        font-weight: 600;
+    }
+
+    .logos {
+        width: 2.8vw;
+        height: 2.8vw;
+    }  
+}
+
+@media(max-width: 650px){
+   .characters{
+    width: 40vw;
+   }
+
+   .logos {
+    width: 3.5vw;
+    height: 3.5vw;
+}  
+}
+
+@media(max-width: 600px){
+    .logos {
+     width: 4vw;
+     height: 4vw;
+ }  
+ }
+
+//card.css
+
+@media (max-width: 1066px){
+  .main-card__section{
+    height: 65vh;
+    width: 30vw;
+  }
+  
+  .main-card__video{
+    height: 70vh;
+    width: 30vw;
+  }
+
+  .main-card__txt{
+    font-size: 1.3vw;
+  }
+}
+
+@media (max-width: 950px){
+  .main-card__section{
+    height: 65vh;
+    width: 35vw;
+  }
+  
+  .main-card__video{
+    height: 70vh;
+    width: 35vw;
+  }
+
+  .main-card__txt{
+    font-size: 1.5vw;
+  }
+}
+
+@media (max-width: 757px){
+  .main-card__txt{
+    font-size: 1.67vw;
+  }
+
+  .main-card__section{
+    margin-left: 30px;
+  }
+
+  .main-card{
+    width: 100vw;
+  }
+}
+
+@media (max-width: 650px){
+  .main-card__video{
+    display: none;
+  }
+
+  .main-card__section{
+    width: 60vw;
+    margin: 0;
+  }
+
+  .main-card__txt{
+    font-size: 2.3vw;
+  }
+}
+
+@media (max-width: 540px){
+  .main-card__section{
+    width: 70vw;
+  }
+
+  .main-card__txt{
+    font-size: 2.5vw;
+  }
+}
+
+
+//Carousel.css
+
+@media (max-width: 955px){
+  .div-slider{
+   width: 60vw;
+   text-align: center;
+  }
+}
+
+@media (max-width: 757px){
+  .swiper {
+    height: 90%;
+  }
+
+  .div-slider{
+   text-wrap: balance;
+  }
+  
+}
+
+@media (max-width: 650px){
+  .swiper-slide {
+    font-size: 15px;
+  }
+}
+
+@media(max-width: 540px){
+  .swiper-slide {
+    font-size: 15px;
+  }
+}
+
+// ClientReview.css
+
+@media(max-width: 757px){
+  .main-ClientReview p{
+    font-size: 10px;
+  }
+
+  .main-ClientReview h2{
+    font-size: 16px;
+    width: 80vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+
+// Demmo.css
+
+@media (max-width: 955px){
+  .div-buttons{
+    gap: 10vw;
+  }
+}
+
+@media (max-height: 600px){
+  .div-buttons{
+    margin-bottom: 10vw;
+  }
+}
+
+@media (max-width: 757px){
+  .div-buttons{
+   width: fit-content;
+   padding: 0;
+  }
+
+  .div-buttons button{
+    margin-top: 0;
+  }
+}
+
+@media(max-width: 600px){
+  .div-buttons{
+    justify-content: center;
+    gap: 3vw;  
+  }
+}
+
+
+//Header.css
+
+@media (max-width: 1028px){
+  .links__link{
+    display: none;
+  }
+}
+
+@media(max-width: 585px){
+  .img-logo{
+    margin-left: 5vw;
+  }
+}
+
+//Welcome.css
+
+@media (max-width: 925px){
+  .main-background{
+   text-align: center;
+   background-position: center;
+  }
+}
+
+@media (max-width: 757px){
+  .main-background p{
+    font-size: 20px;
+  }
+
+  .main-background{
+    background-position: center;
+   }
+
+}
+
+
+
+
+
+
+
+
+
